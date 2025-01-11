@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  experimental: {
+    dynamicIO: true,
+    reactCompiler: {
+      compilationMode: "annotation",
+    },
+  },
 };
 
 export default nextConfig;
