@@ -1,5 +1,5 @@
 import "@mantine/core/styles.css";
-import "../css/globals.css";
+import "../../css/globals.css";
 
 import {
   ColorSchemeScript,
